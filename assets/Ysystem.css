@@ -1,0 +1,107 @@
+.custom-system-actor-content {
+	background: url('../assets/OLD_PAPER_TEXTURE.jpg')center;
+	background-repeat: no-repeat;
+ 	background-size: cover;
+}
+span:has(>#tipo_tirada-0) {
+	display:grid;
+	grid-template-columns: 30% 30% 40%;
+	grid-template-rows:50% 35%;
+	height:50px;
+	text-align:center;
+}
+
+span:has(>#profesion-0) {
+	display:grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows:50% 35%;
+	height:50px;
+	text-align:center;
+}
+label[for="tipo_tirada-0"] {
+	order:1;
+}
+#tipo_tirada-0 {
+	order:4;
+}
+label[for="tipo_tirada-1"] {
+	order:2;
+}
+#tipo_tirada-1 {
+	order:5
+}
+label[for="tipo_tirada-2"] {
+	order:3;
+}
+#tipo_tirada-2 {
+	order:6;
+}
+label[for="profesion-0"] {
+	order:1;
+}
+#profesion-0 {
+	order:3;
+}
+label[for="profesion-3"] {
+	order:2;
+}
+#profesion-3 {
+	order:4
+}
+.custom-system-user-input-button[data-action="sub-10"] {
+	display:none;
+}
+.custom-system-user-input-button[data-action="add-10"] {
+	display:none;
+}
+.repdice {
+	display:flex;
+	justify-content: space-evenly;
+}
+.repdie {
+	display:flex;
+	flex-direction: column;
+	text-align:center;
+}
+.repdie label {
+	font-size:2rem;
+	border:2px solid black;
+	border-radius:9px;
+	width:2.6rem;
+	height:2.6rem;
+}
+.dice-roll .dice-tooltip {
+	display: block;
+}
+.dice-tooltip .part-header {
+	display:none;
+}
+.dice-roll .dice-formula {
+	display:none;
+}
+.dice-tooltip .dice-rolls {
+	display:flex;
+	justify-content: space-evenly;
+}
+.dice-tooltip .dice-rolls .roll.d6 {
+	font-size:20px;
+	height:40px;
+	width:40px;
+	line-height:40px;
+	background-size: 100% 100%;
+}
+.proezabutton {
+	background:transparent;
+	border: 2px solid red;
+}
+.chat-message .message-content h1 {
+	text-align:center;
+}
+.chat-message .message-content h2 {
+	text-align:center;
+}
+.chat-message .message-header .message-sender{
+	text-align:center;
+	font-size:1.5rem;
+	color: black;
+}
